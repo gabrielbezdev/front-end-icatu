@@ -1,14 +1,11 @@
-import LogoIcatu from './assets/LogoIcatu.jpg'
 import "./App.css";
+import Home from "./pages/Home";
 
 
 function App() {
   return (
     <>
-    <div className='logoIcatu'>
-     <img src={LogoIcatu} alt="LogoIcatu" />
-     <h1>Aguardem...</h1>
-     </div>
+    <Home/>
     </>
   );
 }
